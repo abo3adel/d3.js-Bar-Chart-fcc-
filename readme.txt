@@ -1,3 +1,3 @@
-#d3.js Visualize Data with a Bar Chart[FreeCodeCamp] 
+d3.js Visualize Data with a Bar Chart[FreeCodeCamp] 
 
-## Data from : https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json
+Data: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json
