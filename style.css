@@ -1,0 +1,42 @@
+.center-block {
+		  display: block;
+		  margin-right: auto;
+		  margin-left: auto;
+		}
+
+		body {
+		  font: 10px sans-serif;
+		  background: rgb(28,102,20);
+		  background: -moz-linear-gradient(45deg, rgba(28,102,20,1) 0%, rgba(70,186,35,1) 38%, rgba(34,83,216,1) 66%, rgba(0,89,124,1) 100%);
+		  background: -webkit-linear-gradient(45deg, rgba(28,102,20,1) 0%,rgba(70,186,35,1) 38%,rgba(34,83,216,1) 66%,rgba(0,89,124,1) 100%);
+		  background: linear-gradient(45deg, rgba(28,102,20,1) 0%,rgba(70,186,35,1) 38%,rgba(34,83,216,1) 66%,rgba(0,89,124,1) 100%);
+		  background-attachment: fixed;
+		}
+		svg{
+			background-color: rgba(255, 255, 255, 0.8);
+			margin-top: 3rem; 
+			margin-left: 4rem;
+		}
+
+		  .axis path,
+		  .axis line {
+		    fill: none;
+		    stroke: #000;
+		    shape-rendering: crispEdges;
+		  }
+
+		  .dot:hover {
+		    stroke: #000;
+		    cursor: pointer;
+		  }
+	.tooltip {
+		position: absolute;
+		padding: 0 10px;
+		pointer-events: none;
+		background-color: rgba(255,255,255,0.9);
+		color: #000;
+		line-height: 10px;
+		border-radius: 4px;
+		font-size: 13px;
+		font-family: arial;
+	}
